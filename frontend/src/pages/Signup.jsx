@@ -1,5 +1,6 @@
 import React from 'react'
-import '../assets/styles/signup.css'
+import '../assets/styles/signup.css';
+import { Link } from 'react-router-dom';
 const Signup = () => {
   return (
     <div className='signup-form-container'>
@@ -28,7 +29,11 @@ const Signup = () => {
             <div className="input-submit">
               <button type="submit">Sign in</button>
             </div>
-            <p>Already Have an Account? &nbsp;<span>Log In</span></p>
+            <p>Already Have an Account? &nbsp;
+              <span>
+                <Link  to='/login' className='custom-link'>Login</Link>
+              </span>
+            </p>
           </form>
         </div>
       </div>

@@ -70,4 +70,13 @@
     text-decoration: underline;
     color: #10451d;
     cursor: pointer;
+    font-weight: 700;
+}
+.custom-link {
+    color: inherit; /* Inherit the color of the parent */
+    text-decoration: none; /* Remove underline */
+}
+
+.custom-link:hover {
+    color: #555; /* Optional: Add a hover effect */
 }

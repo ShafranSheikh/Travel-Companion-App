@@ -6,6 +6,10 @@ import Hero from './pages/Hero';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import '../src/assets/styles/app.css'
+import About from './pages/About';
+import Contact from './pages/Contact';
+import Gallery from './pages/Gallery';
+import Travel from './pages/Travel';
 function App() {
 
 
@@ -14,9 +18,13 @@ function App() {
       <Router>
         <Navbar/>
         <Routes>
-          <Route path='/' element={<Login/>} />
+          <Route path='/login' element={<Login/>} />
           <Route path= '/signup' element={<Signup/>}/>
-          <Route path='/home' element={<Hero/>}/>
+          <Route path='/about' element={<About/>}/>
+          <Route path='/contact' element={<Contact/>}/>
+          <Route path='/gallery' element={<Gallery/>}/>
+          <Route path='/travel' element={<Travel/>}/>
+          <Route path='/' element={<Hero/>}/>
         </Routes>
         <Footer/>
       </Router>

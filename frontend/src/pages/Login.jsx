@@ -1,6 +1,7 @@
 import React from 'react'
 import '../assets/styles/login.css';
 import googleLogo from '../assets/images/google-logo.png'
+import { Link } from 'react-router-dom';
 const Login = () => {
   return (
     <div className='login-form-container'>
@@ -21,7 +22,11 @@ const Login = () => {
             <button type="submit">Login</button>
           </div>
           <div className="login-google">
-            <p>Don't Have an account? &nbsp;<span>signup</span></p>
+            <p>Don't Have an account? &nbsp;
+              <span>
+                <Link to='/signup' className='custom-link'>signup</Link>
+              </span>
+            </p>
             <button><img src={googleLogo} alt="" /></button>
             <p>Login With Google</p>
           </div>
