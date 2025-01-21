@@ -5,7 +5,7 @@ const Hero = () => {
   return (
     <div className='home-section'>
       <h1>Explore the World Your Way</h1>
-      <button>Sign up</button>
+      <button className='hero-button' onClick={()=> console.log('sign up clicked')}>Sign up</button>
     </div>
   )
 }

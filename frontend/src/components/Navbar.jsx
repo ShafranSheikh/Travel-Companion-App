@@ -9,7 +9,7 @@ const Navbar = () => {
         <img src={logo} alt="" />
       </div>
       <ul>
-        <Link exact to='/'><li><span>Home</span></li></Link>
+        <Link to='/'><li><span>Home</span></li></Link>
         <Link to='/about'><li>About</li></Link>
         <Link to='/contact'><li>Contact</li></Link>
         <Link to='/gallery'><li>Gallery</li></Link>
