@@ -18,13 +18,13 @@ function App() {
       <Router>
         <Navbar/>
         <Routes>
+          <Route path='/' element={<Hero/>}/>
           <Route path='/login' element={<Login/>} />
           <Route path= '/signup' element={<Signup/>}/>
           <Route path='/about' element={<About/>}/>
           <Route path='/contact' element={<Contact/>}/>
           <Route path='/gallery' element={<Gallery/>}/>
           <Route path='/travel' element={<Travel/>}/>
-          <Route path='/' element={<Hero/>}/>
         </Routes>
         <Footer/>
       </Router>

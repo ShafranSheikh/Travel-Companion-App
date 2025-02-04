@@ -31,7 +31,7 @@
     font-family: 'Rubik Vinyl', cursive;
     text-align: center;
 }
-.hero-button{
+.home-section button{
     height: 70px;
     width: 400px;
     font-size: 20px;
@@ -39,4 +39,6 @@
     background: linear-gradient(90deg, #E6E6FA, #90EE90);
     border-radius: 20px;
     cursor: pointer;
+    position: relative; /* Ensure it’s above other elements */
+    z-index: 2;
 }

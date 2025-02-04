@@ -3,6 +3,7 @@ import '../assets/styles/login.css';
 import googleLogo from '../assets/images/google-logo.png'
 import { Link } from 'react-router-dom';
 const Login = () => {
+
   return (
     <div className='login-form-container'>
       <div className="login-form">
@@ -19,7 +20,7 @@ const Login = () => {
             <input type="password" name="password" id="password" required/>
           </div>
           <div className="login-submit">
-            <button type="submit">Login</button>
+            <button type="submit" >Login</button>
           </div>
           <div className="login-google">
             <p>Don't Have an account? &nbsp;
