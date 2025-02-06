@@ -1,0 +1,36 @@
+.tab-headers{
+    height: 140px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 10px 40px;
+}
+.tab-headers button{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    align-items: center;
+    justify-content: center;
+    min-width: 200px;
+    padding: 10px;
+    border-radius: 10px;
+    background: none;
+    font-size: 14px;
+    box-shadow: 2px 2px 20px #aaaaaa;
+    transition: 0.4s ease;
+}
+.tab-headers button.active {
+    box-shadow: 3px 3px 20px #6A9C89;
+}
+.tab-headers button img{
+    height: 45px;
+}
+.tab-content{
+    min-height: 80vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+}
