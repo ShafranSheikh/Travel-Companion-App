@@ -1,0 +1,32 @@
+.card-container {
+    height: 400px;
+    width: 400px;
+    overflow: hidden;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    position: relative; /* Makes it the reference for absolute positioning */
+}
+
+.card-container img {
+    height: 250px;
+    width: 100%;
+    object-fit: fill;
+    background-repeat: no-repeat;
+    border-radius: 0 0 10px 10px;
+}
+
+.card-container .card-content {
+    height: 60px;
+}
+.card-container .card-content h4{
+    color: #727D73;
+}
+/* Centering the button absolutely */
+.card-container button {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%); /* Centers the button horizontally */
+}

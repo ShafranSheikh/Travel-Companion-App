@@ -29,8 +29,10 @@
 .tab-content{
     min-height: 80vh;
     display: flex;
+    margin-top: 40px;
     flex-direction: row;
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-evenly;
+    gap: 40px;
 }
