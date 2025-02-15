@@ -10,7 +10,7 @@ const Card = (props) => {
             <h3>{props.name}</h3>
             <h4>{props.location}</h4>
         </div>
-        <Button/>
+        <Button title={"Reserve"}/>
     </div>
   )
 }

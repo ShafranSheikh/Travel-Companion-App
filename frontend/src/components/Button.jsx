@@ -1,9 +1,9 @@
 import React from 'react'
 import '../assets/styles/button.css'
-const Button = () => {
+const Button = (props) => {
   return (
-    <button className='button-main'>Reserve</button>
+    <button className='button-main'>{props.title}</button>
   )
 }
 
-export default Button
+export default Button;
